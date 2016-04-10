@@ -54,3 +54,4 @@ fixes a lot of stuff as well.
 
 Are we in control though of our technology, or we got it the other way around?
 
+<small><em> * The title is a pun with [programmer's meme](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) and [Halo world and Ringworld concepts](https://en.wikipedia.org/wiki/Ringworld#Concepts)</em></small>
