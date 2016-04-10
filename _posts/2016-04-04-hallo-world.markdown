@@ -22,8 +22,8 @@ again.
 
 Nonetheless, there are some issues that humanity faces today, that are so
 important about our future, that should be discussed no matter the outcome. We
-tend to concentrate on nieche problems, like "an app that helps me organize my
-first to go out" or a webservice that will just deliver fresh goods to my
+tend to concentrate on nieche problems, like "an app that helps me organize with my
+friends to go out tongiht" or a webservice that will just deliver fresh goods to my
 doorstep without me getting off my screen-based life and go out, walk three
 blocks to the supermarket. Does this sound convenient to me?
 
@@ -36,7 +36,7 @@ But the important question is...
 You see everything comes at a cost. Whether it is energy, money, physical or
 mental labour, you have some physical limitations in the game engine of this
 world. But most people don't think about these implications. And I'm not
-referring exclusively about uneducated people. There are some brilliant
+referring exclusively to uneducated people. There are some brilliant
 scientists out there, and many of them are either asking the wrong questions
 or giving wrong answers. Or maybe they just can't see the forest for the trees.
 Blinded by intuition, dogmas & corporate sponsorships, it eventually becomes
@@ -48,9 +48,9 @@ as a whole. Not only by the technical point of view, but looking at those
 problems though the social prism.
 
 And that's because technology cannot be controlled by mystic organizations and shady
-federal agencies. Technology evolves, much like humans evolved during the
-centuries. And it may be creating problems along the way, but it sure
-as hell fixes a lot of stuff as well.
+federal agencies. It evolves in time, much like humans evolved during hundrends
+of aeons.  And it may be creating problems along the way, but it sure as hell
+fixes a lot of stuff as well.
 
-Are we in control though of technology, or we got it the other way around?
+Are we in control though of our technology, or we got it the other way around?
 
