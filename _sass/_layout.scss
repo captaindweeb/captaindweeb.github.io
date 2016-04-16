@@ -207,7 +207,11 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: $spacing-unit / 4;
+    }
+
+    .title-meta {
+      margin-top: -20px;
     }
 
     .timetoread {
@@ -253,6 +257,12 @@
         font-size: 36px;
     }
 }
+
+.post-subtitle {
+    font-style: italic;
+    font-weight: lighter;
+}
+
 
 .post-content {
     margin-bottom: $spacing-unit;
