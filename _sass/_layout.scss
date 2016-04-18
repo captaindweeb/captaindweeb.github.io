@@ -260,7 +260,7 @@
 
 .post-subtitle {
     font-style: italic;
-    font-weight: lighter;
+    font-size: 26px;
 }
 
 
@@ -289,6 +289,17 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    p:first-child:first-letter {
+      float: left;
+      color: #903;
+      font-size: 75px;
+      font-family: "Playfair Display";
+      line-height: 60px;
+      padding-top: 4px;
+      padding-right: 8px;
+      padding-left: 3px;
     }
 }
 

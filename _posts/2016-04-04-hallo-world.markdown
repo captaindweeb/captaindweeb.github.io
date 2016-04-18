@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "Halo World"
-date:   2016-04-04 21:16:39 +0300
+date:   2016-04-04
 timetoread: 2 min
 ---
-<small><em>disclaimer: mandatory intro post ahead, go ahead and read at your own risk</em></small>
 
 After a few years of a blogging hiatus, I feel once again the need (the need for
 speed, pardon my childish wordplay) to write about things that are going on in
