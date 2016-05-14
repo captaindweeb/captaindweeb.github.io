@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 3px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -19,11 +19,19 @@
     margin-bottom: 0;
     float: left;
 
+
     &,
     &:visited {
         color: $grey-color-dark;
     }
 }
+@media screen and (max-width: 800px) {
+  .site-title {
+    line-height: 1.2em;
+    margin: 10px 0;
+  }
+}
+
 
 .site-nav {
     float: right;
@@ -100,8 +108,8 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    font-family: "Playfair Display";
     padding: $spacing-unit 0;
+    font-family: "Inconsolata";
 
     em {
         display: block;
@@ -109,10 +117,6 @@
         padding-bottom: $spacing-unit / 2;
         margin-bottom: $spacing-unit / 2;
         color: $grey-color;
-    }
-
-    .footer-col {
-      font-family: "Inconsolata";
     }
 }
 
@@ -199,6 +203,7 @@
 }
 
 .page-heading {
+    font-family: "Inconsolata";
     font-size: 20px;
 }
 
@@ -206,23 +211,14 @@
     margin-left: 0;
     list-style: none;
 
-    h2 {
-      font-family: "Righteous";
-    }
-
     > li {
         margin-bottom: $spacing-unit / 4;
-    }
-
-    .title-meta {
-      margin-top: -20px;
     }
 
     .timetoread {
         display: none;
         color: $grey-color;
-        font-family: "Playfair Display";
-        font-style: italic;
+        font-family: "Roboto Slab";
         font-size: 16px;
     }
 
@@ -233,9 +229,8 @@
 
 .post-meta {
     margin-top: -5px;
-    font-style: italic;
     font-size: 16px;
-    font-family: "Playfair Display";
+    font-family: "Roboto Slab";
     color: $grey-color;
 }
 
@@ -253,11 +248,11 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     color: $brand-color;
-    font-family: "Righteous";
+    font-family: "Roboto Slab";
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 1.5em;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -305,9 +300,8 @@
       float: left;
       color: #903;
       font-size: 75px;
-      font-family: "Playfair Display";
       line-height: 60px;
-      padding-top: 4px;
+      margin-bottom: -4px;
       padding-right: 8px;
       padding-left: 3px;
     }

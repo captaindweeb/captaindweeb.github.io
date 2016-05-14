@@ -84,7 +84,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display";
+    font-family: "Roboto Slab";
     font-weight: $base-font-weight;
 }
 
@@ -117,9 +117,8 @@ blockquote {
     border-left: 4px solid $grey-color-light;
     padding-left: 1em;
     font-size: 26px;
-    font-family: "Righteous";
+    font-family: "Roboto Slab";
     line-height: 2em;
-    font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
@@ -197,14 +196,31 @@ pre {
  */
 .icon {
 
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
 
-        path {
-            fill: $grey-color;
-        }
+    path {
+      fill: $grey-color;
     }
+  }
+}
+
+.blink {
+  animation: blink-animation 2s steps(2, start) infinite;
+  -webkit-animation: blink-animation 2s steps(2, start) infinite;
+
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+
 }
