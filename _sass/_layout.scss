@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 3px solid $brand-color;
-    border-bottom: 1px solid $grey-color-light;
+    background: $grey-color-dark;
+    border-top: 2px solid $brand-color;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -14,7 +14,7 @@
     font-size: 26px;
     font-weight: 300;
     line-height: 2em;
-    font-family: "Inconsolata";
+    font-family: "Share Tech Mono", monospace;
     letter-spacing: 1px;
     margin-bottom: 0;
     float: left;
@@ -22,7 +22,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #fff;
     }
 }
 @media screen and (max-width: 800px) {
@@ -42,7 +42,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $grey-color-light;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -109,7 +109,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    font-family: "Inconsolata";
+    font-family: "Share Tech Mono", monospace;
 
     em {
         display: block;
@@ -122,7 +122,7 @@
 
 .license {
   font-size: 14px;
-  font-family: "Inconsolata";
+  font-family: "Share Tech Mono", monospace;
   img {
     margin-top: 6px;
   }
@@ -133,7 +133,7 @@
 }
 
 .footer-heading {
-    font-family: "Inconsolata";
+    font-family: "Share Tech Mono", monospace;
     font-size: 26px;
     margin-bottom: $spacing-unit / 2;
 }
@@ -203,7 +203,8 @@
 }
 
 .page-heading {
-    font-family: "Inconsolata";
+    color: $grey-color;
+    font-family: "Share Tech Mono", monospace;
     font-size: 20px;
 }
 
@@ -218,7 +219,6 @@
     .timetoread {
         display: none;
         color: $grey-color;
-        font-family: "Roboto Slab";
         font-size: 16px;
     }
 
@@ -228,13 +228,14 @@
 }
 
 .post-meta {
+    font-family: "Share Tech Mono", monospace;
     margin-top: -5px;
     font-size: 16px;
-    font-family: "Roboto Slab";
     color: $grey-color;
 }
 
 .post-link {
+    color: $grey-color-dark;
     font-size: 24px;
 }
 
@@ -249,8 +250,7 @@
 
 .post-title {
     font-size: 36px;
-    color: $brand-color;
-    font-family: "Roboto Slab";
+    color: $grey-color-dark;
     letter-spacing: -1px;
     line-height: 1.5em;
 
@@ -269,6 +269,7 @@
     margin-bottom: $spacing-unit;
 
     p {
+      color: $grey-color-dark;
       font-size: 1em;
     }
 
@@ -296,15 +297,6 @@
         }
     }
 
-    &>p:first-child:first-letter {
-      float: left;
-      color: #903;
-      font-size: 75px;
-      line-height: 60px;
-      margin-bottom: -4px;
-      padding-right: 8px;
-      padding-left: 3px;
-    }
 }
 
 .not-found {
@@ -312,7 +304,7 @@
 
   .post-title {
     font-size: 70px;
-    font-family: "Inconsolata";
+    font-family: "Share Tech Mono", monospace;
     margin: 40px 0;
   }
 }
