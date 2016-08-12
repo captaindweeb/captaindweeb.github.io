@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    background: $grey-color-dark;
+    background: lighten($grey-color-dark, 10%);
     border-top: 2px solid $brand-color;
     min-height: 56px;
 
