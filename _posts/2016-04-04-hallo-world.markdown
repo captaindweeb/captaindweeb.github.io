@@ -21,7 +21,7 @@ again.
 Nonetheless, there are some issues that humanity faces today, that are so
 important about our future, that should be discussed no matter the outcome. We
 tend to concentrate on nieche problems, like "an app that helps me organize with my
-friends to go out tongiht" or a webservice that will just deliver fresh goods to my
+friends to go out tonight" or a webservice that will just deliver fresh goods to my
 doorstep without me getting off my screen-based life and go out, walk three
 blocks to the supermarket. Does this sound convenient to me?
 
