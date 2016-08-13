@@ -24,13 +24,11 @@
         color: #fff;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 425px) {
   .site-title {
-    line-height: 1.2em;
-    margin: 10px 0;
+    width: 50%;
   }
 }
-
 
 .site-nav {
     float: right;
@@ -100,7 +98,17 @@
     }
 }
 
-
+@media screen and (max-width: 800px) {
+  .site-title {
+    line-height: 1.2em;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .site-nav .page-link {
+    color: $text-color;
+  }
+}
 
 /**
  * Site footer
