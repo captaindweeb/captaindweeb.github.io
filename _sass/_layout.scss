@@ -245,6 +245,19 @@
     color: $grey-color;
 }
 
+.post {
+  .post-meta {
+    border-top: 1px solid darken($grey-color-light, 10%);
+    line-height: 0;
+
+    time {
+      margin-left: 10px;
+      background: $background-color;
+      padding: 0 10px;
+    }
+  }
+}
+
 .post-link {
     color: $grey-color-dark;
     font-size: 24px;
