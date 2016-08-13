@@ -112,16 +112,29 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: .5em;
+    color: $grey-color-dark;
+    background: lighten($grey-color-light, 5%);
+    margin: 1em 0;
+    padding: .5em 0;
+    border-left: 3px solid $grey-color;
     font-size: 2em;
     font-family: "Share Tech Mono", monospace;
+    font-style: italic;
     line-height: 2em;
 
     > :last-child {
         margin-bottom: 0;
     }
+
+    > :before {
+      color: $grey-color;
+      content: open-quote;
+      font-size: 2em;
+      line-height: 0.1em;
+      margin-right: 10px;
+      vertical-align: -0.3em;
+    }
+
 }
 
 
