@@ -3,7 +3,6 @@
  */
 .site-header {
     background: $grey-color-dark;
-    border-top: 2px solid $brand-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -13,7 +12,6 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 2em;
-    font-family: "Share Tech Mono", monospace;
     letter-spacing: 1px;
     margin-bottom: 0;
     float: left;
@@ -116,7 +114,6 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    font-family: "Share Tech Mono", monospace;
 
     em {
         display: block;
@@ -129,8 +126,7 @@
 
 .license {
   opacity: 0.6;
-  font-size: 14px;
-  font-family: "Share Tech Mono", monospace;
+  font-size: $small-font-size;
   img {
     margin-top: 6px;
   }
@@ -144,8 +140,6 @@
 }
 
 .footer-heading {
-    font-family: "Share Tech Mono", monospace;
-    font-size: 26px;
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -156,7 +150,7 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: $small-font-size;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -214,9 +208,8 @@
 }
 
 .page-heading {
+    font-size: $base-font-size;
     color: $grey-color;
-    font-family: "Share Tech Mono", monospace;
-    font-size: 20px;
 }
 
 .post-list {
@@ -239,8 +232,8 @@
 }
 
 .post-meta {
-    font-family: "Share Tech Mono", monospace;
-    margin-top: -5px;
+    text-align: center;
+    margin-top: 30px;
     font-size: 14px;
     color: $grey-color;
 }
@@ -260,7 +253,6 @@
 
 .post-link {
     color: $grey-color-dark;
-    font-size: 24px;
 }
 
 
@@ -277,6 +269,7 @@
     color: $grey-color-dark;
     letter-spacing: -1px;
     line-height: 1.5em;
+    text-align: center;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -294,7 +287,10 @@
 
     p {
       color: $grey-color-dark;
-      font-size: 1em;
+    }
+
+    h1, h2, h3 {
+      margin: 40px 0 20px 0;
     }
 
     h2 {
@@ -328,7 +324,6 @@
 
   .post-title {
     font-size: 70px;
-    font-family: "Share Tech Mono", monospace;
     margin: 40px 0;
   }
 }
