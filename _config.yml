@@ -10,7 +10,7 @@ title: Intrinsically Incompatible
 description: > # this means to ignore newlines until "baseurl: #
   Serial Procrastinator · Iceberg Mover by profession · Father of -∞ · Passionate about glue tasting
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://words.captaindweeb.com" # the base hostname & protocol for your site
 twitter_username: CaptainDweeb
 github_username:  CaptainDweeb
 permalink: /topics/:title
