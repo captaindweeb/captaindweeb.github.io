@@ -112,7 +112,6 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 
     em {
@@ -126,6 +125,7 @@
 
 .license {
   opacity: 0.6;
+  color: $grey-color-light;
   font-size: $small-font-size;
   img {
     margin-top: 6px;
@@ -252,7 +252,7 @@
 }
 
 .post-link {
-    color: $grey-color-dark;
+    color: $brand-color;
 }
 
 
@@ -266,7 +266,7 @@
 
 .post-title {
     font-size: 36px;
-    color: $grey-color-dark;
+    color: $brand-color;
     letter-spacing: -1px;
     line-height: 1.5em;
     text-align: center;
@@ -286,7 +286,7 @@
     margin-bottom: $spacing-unit;
 
     p {
-      color: $grey-color-dark;
+      color: #d3d3d3; 
     }
 
     h1, h2, h3 {
